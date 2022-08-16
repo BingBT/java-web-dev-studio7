@@ -2,7 +2,7 @@ package org.launchcode.studio7;
 
 public class DVD extends BasicDisc implements OpticalDisc {
     public DVD(String title) {
-        super(4000, 1600, title);
+        super(500,1600, "Wedding Album");
     }
 
     @Override
